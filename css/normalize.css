@@ -18,7 +18,7 @@ html {
 
 body {
   margin: 0;
-  color:  #555;
+  color: #555;
 }
 
 /* HTML5 display definitions
@@ -184,8 +184,19 @@ sub {
 
 img {
   border: 0;
+  width: 85%;
+
+  height: auto;
   border-radius: 50%;
-  margin-bottom: 2rem;
+}
+
+@media (max-width: 550px) {
+  img {
+    border: 0;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+  }
 }
 
 /**
